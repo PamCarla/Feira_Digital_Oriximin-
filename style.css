@@ -249,6 +249,31 @@ margin-right: 5px;
 .destaques h3{
     font-size:2rem;
 }
+
+.produtos-semana{
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+}
+
+.produto{
+    text-align:center;
+    width:180px;
+}
+
+.produto img{
+    width:180px;
+    height:180px;
+    object-fit:cover;
+    border-radius:10px;
+}
+
+.produto p{
+    margin-top:10px;
+    font-weight:bold;
+    color:#2e7d32;
+}
 /*fim do painel*/
 
 
