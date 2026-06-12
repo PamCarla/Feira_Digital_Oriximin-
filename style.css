@@ -420,4 +420,25 @@ button:hover {
     height: 70px;
     background-color: #ffffff;
 }
+.row-buttons {
+    display: flex;
+    justify-content: flex-end; 
+    gap: 15px;                 
+    margin-top: 25px;
+}
+.reset,.submit {
+    background-color: #01460a;
+    color: #ffffff;    
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 13px;
+    font-family: 'Arial', sans-serif;
+}
+
+.reset:hover{
+    background-color: #d00707;
+}
+.submit:hover {
+    background-color: #5fc103b6;
+}
 /*fim de cadastro*/
