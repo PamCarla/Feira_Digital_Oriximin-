@@ -41,3 +41,66 @@ nav a:hover {
     background-color: #ca6702;
 }
 /*fim de cabeçario*/
+
+
+
+/*Inicia o rodapé*/ 
+footer {
+  background:#e1e4e1 ;
+  border-top: 20px solid darkgreen;
+  padding: 2rem 1.5rem;
+  font-size: 14px;
+  color: #555;
+}
+
+footer h3 {
+  font-size: 18px;
+  font-weight: 500;
+  color: #222;
+  margin: 0 0 1rem;
+}
+
+footer h5 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #222;
+  margin: 1.25rem 0 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+
+}
+
+footer nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  text-align: center;
+
+}
+
+footer nav a {
+  color: #1a73e8;
+  text-decoration: none;
+  font-size: 14px;
+ 
+}
+
+footer nav a:hover {
+  text-decoration: underline;
+
+}
+
+.footer-contact p {
+  margin: 0.3rem 0;
+  font-size: 14px;
+}
+
+.footer-bottom {
+  margin-top: 1.5rem;
+  padding-top: 1rem;
+  border-top: 5px solid darkgreen;
+  font-size: 13px;
+  color: black;
+  text-align: center;
+}
+/*fim do rodapé*/
