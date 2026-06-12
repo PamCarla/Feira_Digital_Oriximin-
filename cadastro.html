@@ -6,46 +6,90 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <header id="cabecario">
-        <div class="header-container">
-            <h1>Feira do Produtor de Oriximiná</h1>
-            <!---<img id="feira" src="imagem/feira.png" alt="Feira do Produtor de Oriximiná">--->
-            <nav>
-                <ul>
-                    <li><a href="index.html">Início</a></li>
-                    <li><a href="#">A Feira</a></li>
-                    <li><a href="#">Lojas</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header> 
-    <h1></h1>
-    <main class="">
-        <header>
-            <h1>Cadastro</h1>
-            <p>Disponibilize suas informações:</p>
-        </header>
-        <section id="wrapper">
-            <div class="form-title-box">
-                <form>
-                    <label>Nome</label>
-                    <input type="text" required placeholder="ex: João Maria">
-                    <br>
-                    <label>Email</label>
-                    <input type="email" required placeholder="ex: joaomaria@gmail.com">
-                    <br>
-                    <label>Telefone</label>
-                    <input type="number" required placeholder="ex: (99) 9 8989-8989">
-                    <br>
-                    <input type="submit" value="Submit">
-                    <input type="reset" value="Reset">
-                </form>
-            </div>
-        </section>
 
-    </main>
-    
+
+
+    <form class="form-outline">
+        
+        <h1 class="form-header">FORMULÁRIO DE CADASTRO</h1>
+
+        <div class="row">
+            <label class="field" >Código 
+            <input type="text" required placeholder="123"></label>
+        </div>
+
+        <div class="row">
+            <label class="field grow">Nome 
+                <input type="text" required placeholder="Marina da Costa Silva">
+            </label>
+            <label class="field">CPF/CNPJ 
+                <input type="text" required placeholder="123.456.798.00">
+            </label>
+            <label class="field">RG 
+                <input type="text" required placeholder="45.667.009-1">
+            </label>
+        </div>
+
+        <div class="row">
+            <label class="field">Estado Civil 
+                <input type="text" required placeholder="Casado">
+            </label>
+            <label class="field">Data de Nascimento 
+                <input type="text" required placeholder="04/12/1978">
+            </label>
+            <label class="field">Sexo 
+                <input type="text" required placeholder="Feminino">
+            </label>
+        </div>
+
+        <div class="row">
+            <label class="field grow">Endereço 
+                <input type="text" required placeholder="Av Brasil">
+            </label>
+            <label class="field">Número 
+                <input type="text" required placeholder="1234">
+            </label>
+            <label class="field">Complemento 
+                <input type="text"  required placeholder="Casa">
+            </label>
+        </div>
+
+        <div class="row">
+            <label class="field grow">Bairro 
+                <input type="text" required placeholder="Centro">
+            </label>
+            <label class="field">CEP 
+                <input type="text" style="width: 100px;" required placeholder="13000-000">
+            </label>
+            <label class="field">Cidade 
+                <input type="text" required placeholder="Campinas">
+            </label>
+            <label class="field">UF 
+                <input type="text" style="width: 100px;" required placeholder="São Paulo">
+            </label>
+        </div>
+
+        <div class="row">
+            <label class="field grow">Telefone 
+                <input type="text" required placeholder="(19) 3333-0000">
+            </label>
+            <label class="field grow">Celular 
+                <input type="text" required placeholder="(19) 9999-0001">
+            </label>
+        </div>
+
+        <div class="row">
+            <label class="field grow">E-mail 
+                <input type="email" required placeholder="maria@gmail.com">
+            </label>
+        </div>
+
+        <div class="row-obs">
+            <span class="obs-title">Observações</span>
+            <textarea class="obs-textarea" placeholder="Digite aqui suas observações..."></textarea>
+        </div>
+
+    </form>
 
 
 </body>
