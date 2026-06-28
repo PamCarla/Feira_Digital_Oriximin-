@@ -1,0 +1,16 @@
+main { width: 90%; max-width: 1200px; margin: auto; }
+section { background-color: white; margin: 20px 0; padding: 25px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); }
+section h2 { color: #2e7d32; margin-bottom: 15px; }
+section img { display: block; margin: auto; max-width: 100%; border-radius: 10px; }
+article { background-color: #f8f8f8; border-left: 5px solid #2e7d32; padding: 15px; margin: 15px 0; border-radius: 5px; }
+article h3 { color: #2e7d32; margin-bottom: 10px; }
+blockquote { background-color: #f1f8e9; border-left: 5px solid #66bb6a; padding: 15px; margin: 15px 0; font-style: italic; border-radius: 5px; }
+
+.destaques { display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; }
+.destaques article { width: 250px; text-align: center; border-left: none; border-top: 5px solid #2e7d32; }
+.destaques h3 { font-size: 2rem; }
+
+.produtos-semana { display: flex; justify-content: center; gap: 25px; flex-wrap: wrap; }
+.produto { text-align: center; width: 180px; }
+.produto img { width: 180px; height: 180px; object-fit: cover; border-radius: 10px; }
+.produto p { margin-top: 10px; font-weight: bold; color: #2e7d32; }

@@ -1,0 +1,23 @@
+.card {
+  width: 200px;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  background-color: #d1e7dd;
+  border: 1px solid #a8d5b5;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+}
+.card:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 0 12px 24px rgba(6, 65, 22, 0.25);
+  background-color: #064116;
+}
+.card h3 {
+  color: #064116;
+  margin-bottom: 10px;
+  transition: color 0.3s ease;
+}
+.card:hover h3 { color: #4af506; }
+.card p { color: #333; line-height: 1.5; transition: color 0.3s ease; }
+.card:hover p { color: #d1e7dd; }
